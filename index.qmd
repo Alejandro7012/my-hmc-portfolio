@@ -1,0 +1,23 @@
+---
+title: "My Portfolio"
+image: images/prof_headshot.jpg #Make sure to match the file type!
+about:
+    template: jolla
+    links:
+     - icon: envelope-fill  
+       text: Email  
+       href: atellez@hmc.edu
+     - icon: linkedin    
+       text: LinkedIn    
+       href: https://linkedin.com/in/alejandro-tellez-engineer   
+     - icon: github    
+       text: Github      
+       href: https://github.com/Alejandro7012 
+---
+
+---
+
+Hello! 
+
+Welcome to my portfolio. My name is Alejandro Tellez and I'm a current sophomore engineer at Harvey Mudd College! I'm interested in mechaical engineering, with an emphasis in manufacturing and design. At HMC, I serve as shop proctor at HMC's Machine shop, a member of SHPE, and a Residential A Liasion (RAL). I enjoy going on hikes and playing soccer with friends on my freetime. 
+ 
