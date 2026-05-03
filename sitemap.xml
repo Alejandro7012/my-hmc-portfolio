@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Alejandro7012.github.io/my-hmc-portfolio/index.html</loc>
-    <lastmod>2026-04-16T01:58:58.124Z</lastmod>
+    <loc>https://Alejandro7012.github.io/my-hmc-portfolio/projects.html</loc>
+    <lastmod>2026-05-03T02:32:22.008Z</lastmod>
   </url>
   <url>
     <loc>https://Alejandro7012.github.io/my-hmc-portfolio/about.html</loc>
     <lastmod>2026-04-16T01:58:58.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Alejandro7012.github.io/my-hmc-portfolio/index.html</loc>
+    <lastmod>2026-04-16T01:58:58.124Z</lastmod>
   </url>
 </urlset>
