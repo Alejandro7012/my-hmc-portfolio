@@ -103,6 +103,18 @@ h1, h2, h3, h4 {
   color: var(--obsidian);
 }
 /* ── Hamburger Menu Icon ── */
-.navbar-toggler-icon {
-  filter: brightness(10);
+.navbar-brand {
+  font-size: 0;      /* hides the text without removing it from the DOM (keeps accessibility) */
+}
+.navbar-brand::before {
+  content: "☰";
+  font-size: 1.5rem;
+  color: var(--off-white);
+}
+.pronouns {
+  font-size: 1rem;
+  opacity: 0.65;
+  display: block;
+  margin-top: -1rem;   /* pulls it up closer to the title */
+  margin-bottom: 0.5rem;
 }
