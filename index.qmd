@@ -1,5 +1,5 @@
 ---
-title: "My Portfolio"
+title: "Alejandro Tellez"
 image: images/prof_headshot.jpg #Make sure to match the file type!
 about:
     template: jolla
@@ -14,7 +14,7 @@ about:
        text: Github      
        href: https://github.com/Alejandro7012 
 ---
-
+<span class="pronouns">He/Him</span>  
 ---
 
 Hello! 
