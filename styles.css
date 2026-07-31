@@ -118,3 +118,66 @@ h1, h2, h3, h4 {
   margin-top: -1rem;   /* pulls it up closer to the title */
   margin-bottom: 0.5rem;
 }
+.project-image {
+  max-width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* crops to fill the box without distorting */
+  display: block;
+}
+/* ── Project Card Layout ── */
+.project-title {
+  font-size: 1.6rem;
+  border-bottom: 1px solid var(--obsidian);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.project-body {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.project-body .project-image {
+  flex: 0 0 40%;
+  max-width: 400px;   /* keeps consistent with your existing sizing */
+}
+
+.project-body .project-info {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .project-body {
+    flex-direction: column;
+  }
+}
+/* ── Project Card Styling ── */
+.project-title {
+  font-size: 1.6rem;
+  margin-top: 0;
+  border-bottom: 1px solid var(--obsidian);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.project-tag {
+  font-size: 0.8rem;
+  color: var(--sage-green);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+/* ── Projects Container Spacing ── */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+}
